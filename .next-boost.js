@@ -13,7 +13,7 @@ module.exports = {
     p === "fbclid" || p.startsWith("utm_") ? false : true;
   },
   cacheAdapter: new Adapter({
-    path: path.join(__dirname, "/.cache"),
+    path: path.resolve("./.cache"),
     ttl: 60,
     tbd: 3600,
   }),

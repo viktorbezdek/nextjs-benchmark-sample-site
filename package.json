@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "cp ./next-boost.js ./.next-boost.js && next-boost",
+    "start": "next-boost",
     "lint": "next lint",
     "export": "next export"
   },
