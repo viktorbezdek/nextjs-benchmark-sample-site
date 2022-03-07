@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next-boost",
+    "start": "ls -a && next-boost",
     "lint": "next lint",
     "export": "next export"
   },
