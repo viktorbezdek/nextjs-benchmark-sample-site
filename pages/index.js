@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Home({ now }) {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Head>
 				<title>Page - Homepage</title>
 				<meta name="description" content="Page homepage description" />
